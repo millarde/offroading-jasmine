@@ -1,0 +1,30 @@
+{
+  "name": "offroading-jasmine",
+  "version": "1.0.0",
+  "description": "Example of testing differently with Jasmine",
+  "main": "index.js",
+  "scripts": {
+    "test": "jasmine",
+    "test-e2e": "jasmine JASMINE_CONFIG_PATH=spec/support/jasmine-e2e.json",
+    "test-units": "jasmine JASMINE_CONFIG_PATH=spec/support/jasmine-units.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/millarde/offroading-jasmine.git"
+  },
+  "keywords": [
+    "jasmine",
+    "nodejs",
+    "node",
+    "testing"
+  ],
+  "author": "Millard Ellingsworth",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/millarde/offroading-jasmine/issues"
+  },
+  "homepage": "https://github.com/millarde/offroading-jasmine#readme",
+  "devDependencies": {
+    "jasmine": "^2.5.3"
+  }
+}
